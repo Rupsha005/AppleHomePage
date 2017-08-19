@@ -1,0 +1,132 @@
+body{
+    background-color: rgba(245,245,245,1);
+}
+img{
+    margin-top:30px; 
+}
+li{
+    display: inline;
+    text-decoration: none;   
+    color: white;
+    font-family: helvetica;
+    font-size: 17px;
+    padding: 40px;
+}
+ul{
+    background-color: black;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    margin-bottom:5px; 
+
+}
+b{
+    font-size: 70px;
+}
+h2{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 30px;
+}
+.iphone{
+    background-image: url("image.jpg");
+    border: 2px solid;
+    border-radius: 8px;
+    margin-top: 441px;
+    height: 290px;
+    width: 333px;
+    text-align: center;
+    color: white;
+    padding-top: 4px;
+    font-size: 18px; 
+}
+.iwatch{
+    background-image: url("image1.jpg");
+    border: 2px solid;
+    border-radius: 8px;
+    margin-top: 180px;
+    height: 290px;
+    width: 333px;
+    text-align: center;
+    color: white;
+    padding-top: 4px;
+    font-size: 18px;   
+}
+.imac{
+    background-image: url("image2.jpg"); 
+    border-radius: 8px;
+    border: 2px solid;
+    margin-top: 180px;
+    height: 290px;
+    width: 333px;
+    text-align: center;
+    color: white;
+    padding-top: 4px;
+    font-size: 18px;  
+}
+.assi{
+    background-image: url("image3.jpg");
+    border-radius: 8px;
+    border: 2px solid;
+    margin-top: 180px;
+    height: 290px;
+    width: 333px;
+    text-align: center;
+    color: white;
+    padding-top: 4px;
+    font-size: 18px;
+}
+div{
+    display: inline-block;
+    float: left;
+}
+#st1{
+   padding-left: 150px;
+}
+
+#st2{
+    padding-left: 100px;
+}
+#st3{
+    padding-left: 70px;
+}
+#st4{
+    padding-left: 70px;
+}
+
+#st5{
+    padding-left: 70px;
+}
+footer{
+    padding-top:230px;
+    padding-left: 150px;
+    width: 1000px;
+}
+@media (max-width: 900px) {
+    div{
+        display: block;
+    }
+    li{
+        display: block;
+    }
+    ul{
+       display: block; 
+    }
+    article{
+        display: block;
+    }
+}
+header{
+    margin: 0 auto;
+}
+body{
+    margin: 0;
+}
+h1{
+   font-family: helvetica; 
+}
+article{
+    display: inline;
+    margin: 0 auto; 
+}
